@@ -1,0 +1,24 @@
+$mySize : 0.6rem ;
+$mainColor: #F6F8FA;
+$borderColor : #D0D7DE;
+$hoverColor : #e1e9f1;
+
+@mixin myFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin borderRadius{
+    border: 1.5px solid $borderColor;
+    border-radius: $mySize/1.7;
+}
+
+@mixin hover{
+    :hover{
+        background-color: #e1e9f1;
+        cursor: pointer;
+        transition: 0.2ms;
+        
+    }
+}

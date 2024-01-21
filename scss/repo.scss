@@ -1,0 +1,82 @@
+@import "degiskenler.scss";
+
+.repositories{
+    margin-top: 32px;
+    margin-right: 66px;
+    margin-left: 387px;
+    
+    &_header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        & p {
+            font-size: 18px;
+        }
+        & a{
+            font-size: 13px;
+            text-decoration: none;
+            color: #0969DA;
+           
+        }
+    }
+    &_container{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        
+
+        &-header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 15px 16px 13px 16px;
+            
+
+            & a{
+                font-size: 14px;
+                text-decoration: none;
+                font-weight: 550;
+                color: #136FDB;
+            }
+
+            & p{
+                display: inline-block;
+                color: #656D76;
+                font-size: 13px;
+                font-weight: 600;
+                text-align: center;
+                padding: 2px 4px;
+                width: 55px;
+                border: 1px solid #D0D7DE;
+                border-radius: 20px;
+            }
+        }
+        &-footer{
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 16px;
+            gap: 3px;
+            font-size: 13px;
+           
+           
+            &_icon{
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background-color: #563D7C;
+            }
+            
+        }
+        
+    }
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    
+}

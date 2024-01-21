@@ -1,0 +1,109 @@
+.section {
+  display: flex;
+  height: 700px;
+  width: 30%;
+}
+.section-left {
+  margin-left: 15px;
+  height: 700px;
+}
+.section-left_profil-photo {
+  background-image: url(../img/emre_profil.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: 40px;
+  height: 250px;
+  width: 250px;
+}
+.section-left_title {
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.section-left_title h3 {
+  color: #9A9FA5;
+  font-weight: 500;
+}
+.section-left_title p {
+  margin-top: 15px;
+  line-height: 25px;
+}
+.section-left_button {
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 15px;
+  border: 1px solid #D4D5D7;
+  border-radius: 6px;
+  background-color: #F3F4F6;
+  font-weight: 600;
+  font-size: 14px;
+  color: #3D4247;
+  padding: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-left_button:hover {
+  background-color: #dbeaff;
+}
+.section-left_follow {
+  margin-left: 15px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  color: #73787e;
+  margin-bottom: 20px;
+}
+.section-left_follow:hover {
+  color: #0969DC;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.section-left_follow img {
+  color: #9A9FA5;
+  width: 15px;
+}
+.section-left_follow-num {
+  color: #3D4247;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.section-left_social {
+  width: 100%;
+}
+.section-left_social-location {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.section-left_social-clock {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.section-left_social-in {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.section-left_social-twitter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.section-left_social img {
+  color: #9A9FA5;
+  width: 20px;
+  margin-right: 10px;
+}/*# sourceMappingURL=section-left.css.map */

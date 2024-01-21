@@ -1,0 +1,221 @@
+@import "degiskenler";
+
+.header {
+  display: flex;
+  background-color: $mainColor;
+  flex-direction: column;
+
+  &-up {
+
+    display: flex;
+    align-items: center;
+    background-color: $mainColor;
+
+    &_left i img {
+      width: $mySize*3.5;
+    }
+
+    &_left {
+      height: $mySize*6;
+      align-items: center;
+      display: flex;
+      justify-content: flex-start;
+      gap: $mySize;
+      margin-left: $mySize*2;
+& #hamburger{
+  height: $mySize*3.2;
+  width: auto;
+  @include borderRadius;
+  padding:5px
+}
+& #logo{
+  height: $mySize*3.2;
+  
+}
+& #logo_text{
+  color: #19191a;
+  font-weight: bold;
+}
+    }
+
+    &_left a {
+
+      align-items: center;
+      text-decoration: none;
+      color: black;
+    }
+
+    &_right {
+
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: $mySize;
+      margin-right: $mySize*2;
+
+      & i {
+        padding: $mySize/4;
+        //border: 1px solid rgb(223, 213, 213);
+        border-radius: $mySize;
+      }
+
+      & i img {
+
+        height: $mySize*3;
+        border-radius: 50%;
+      }
+
+      & .input {
+        width: $mySize*35;
+        height: $mySize*3.2;
+        @include borderRadius;
+        position: relative;
+        color: $borderColor/1.5;
+        display: flex;
+        padding-left: $mySize*2;
+        align-items: center;
+        font-size: 14px;
+
+        & #slash {
+          width: $mySize*1.5;
+          height: $mySize*2;
+          border: 1px solid $borderColor;
+          border-radius: 3px;
+          text-align: center;
+          margin: $mySize/2
+        }
+
+        & #search {
+          position: absolute;
+          width: $mySize*2;
+          height: auto;
+          margin-top: -9px;
+          margin-left: -17px;
+          border-color: $borderColor;
+          color: gray;
+        }
+
+        & #search_end {
+          position: absolute;
+          color: $borderColor/3;
+          font-weight: 500;
+          font-size: $mySize*1.9;
+          margin-left: $mySize*29;
+          text-align: center;
+          justify-content: end;
+        }
+      }
+      
+    }
+  }
+  &-down{
+    display: flex;
+    height: $mySize*5;
+    align-items: center;
+    justify-content: flex-start;
+    gap: $mySize*2.5;
+    @include hover;
+    background-color: $mainColor;
+    margin-left: $mySize*2;
+    
+
+    &_container{
+      
+      border-bottom: 1px solid $borderColor;
+      margin-top: $mySize/3;
+
+      &::after{
+        content: '';
+    width: 100px;
+    background-color: #FD8C73;
+    display: block;
+    margin: auto;
+    height: 2px;
+    margin-left: 25px;
+    margin-top: 0px;
+      }
+
+    }
+    &_icon {
+      margin-left: $mySize;
+      @include myFlex;
+      height:$mySize*3.2 ;
+      padding: 6px;
+      border-radius: $mySize/2;
+      
+   
+    }
+    &_text{
+      margin-left: $mySize/2;
+      text-align: center;
+      
+      &_num{
+        width: $mySize*2.5;
+        margin-left: $mySize;
+        font-size: $mySize*1.2;
+        font-weight: 600;
+        border: none solid #19191a;
+        border-radius: 40%;
+        padding: $mySize/2 $mySize/4.5;
+        background-color: $borderColor;
+        text-align: center;
+      }
+      
+    }
+
+  }
+}
+#after{
+position: relative;
+}
+#afer::after{
+  content: "";
+  width: 100%;
+  background-color: red;
+  display: block;
+  margin: auto;
+  width: 0;
+  height: 3px;
+  margin-top: 5px;
+}
+#plus{
+@include myFlex;
+@include borderRadius;
+height: $mySize*3.2;
+
+  & i img{
+    height: $mySize*1.7;
+    width: auto;
+    color: $borderColor;
+    margin: 2px;
+      
+    
+ 
+  }
+}
+#last_icon{
+  @include myFlex;
+  gap: $mySize;
+  height: $mySize*3.2;
+  @include hover;
+
+  & i {
+    @include myFlex;
+    height: $mySize*3.2;
+    @include borderRadius;
+    padding: 5px;
+  }
+  & i img{
+   height: 20px;
+   
+    color: $borderColor*2;
+    
+    
+    
+  }
+}
+#profil-foto img {
+  width: $mySize*2;
+  height: $mySize*2;
+}
