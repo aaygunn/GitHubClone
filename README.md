@@ -4,6 +4,8 @@ Projemde HTML, CSS ve SCSS kullanarak sayfa yapısını oluşturup, GitHub'un ö
 
 SCSS'in CSS yazımını daha düzenli ve okunabilir hale getirme yeteneği, style özelliğini daha yönetilebilir hale getirmesi sebepleriyle tercih ederek uyguladım. 
 
+Demo için ![buraya](https://aaygunn.github.io/GitHubClone/) tıklayabilirsiniz.
+
 <h2>Kullanılan Teknolojiler</h2>
 
 <li>HTML</li>
