@@ -12,4 +12,4 @@ SCSS'in CSS yazımını daha düzenli ve okunabilir hale getirme yeteneği, styl
 
 <h2>Ekran Görüntüsü</h2>
 
-<img src="github.mp4" alt="">
+![](github.gif)
